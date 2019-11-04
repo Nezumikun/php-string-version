@@ -1,0 +1,26 @@
+{
+    "name": "nezumikun/php-string-version",
+    "type": "library",
+    "description": "Show changes of string",
+    "version": "1.0.0",
+    "keywords": ["string", "diff", "merge"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Kozhevnikov",
+            "email": "alexey.kozhevnikov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "jfcherng/php-sequence-matcher": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nezumikun\\StringVersion\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
